@@ -1,0 +1,101 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 1.3rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--cor-fundo);
+}
+
+.container-testemunhos{
+    display: grid;
+    grid-template-areas: "caixa-1 caixa-1 caixa-2 caixa-5"
+                         "caixa-3 caixa-4 caixa-4 caixa-5";
+    grid-template-columns: repeat(4, 1fr);
+    padding: 164px 165px;
+    gap: 26px 29px;
+}
+
+.testemunho{
+    padding: 25px 32px 25px 33px;
+    border-radius: 10px;
+}
+
+.testemunho .info-pessoal{
+    display: flex;
+    align-items: center;
+}
+
+.testemunho .info-pessoal .foto{
+    border-radius: 50%;
+    border: 1px solid var(--cor-texto-clara);
+    max-width: 29px;
+    margin-right: 17px;
+}
+
+.testemunho .titulo{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 18px;
+}
+
+.testemunho .conteudo{
+    font-size: 1.33rem;
+    margin-top: 24px;
+    line-height: 1.8rem;
+    opacity: 70%;
+}
+
+.testemunho .info-pessoal .nome{
+    font-weight: 500;
+}
+
+.testemunho .info-pessoal .cargo{
+    font-size: 1.1rem;
+    opacity: 50%;
+}
+
+.caixa-1{
+    grid-area: caixa-1;
+    background-color: var(--cor-caixa-1);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 82% 0px;
+}
+
+.caixa-2{
+    grid-area: caixa-2;
+    background-color: var(--cor-caixa-2);
+}
+
+.caixa-3{
+    grid-area: caixa-3;
+    background-color: var(--cor-caixa-3-5);
+}
+
+.caixa-4{
+    grid-area: caixa-4;
+    background-color: var(--cor-caixa-4);
+}
+
+.caixa-5{
+    grid-area: caixa-5;
+    background-color: var(--cor-caixa-3-5);
+}
+
+.caixa-1, .caixa-2, .caixa-4{
+    color: var(--cor-texto-clara);
+}
+
+.caixa-3, .caixa-5{
+    color: var(--cor-texto-escura);
+}
+
+.caixa-1 .conteudo,
+.caixa-2 .conteudo{
+    margin-top: 18px;
+}
+
+

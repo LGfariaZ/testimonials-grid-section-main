@@ -1,0 +1,9 @@
+:root{
+    --cor-caixa-1:hsl(263, 55%, 52%);
+    --cor-caixa-2:hsl(217, 19%, 35%);
+    --cor-caixa-3-5:hsl(0, 0%, 100%);
+    --cor-caixa-4:hsl(219, 29%, 14%);
+    --cor-fundo:hsl(210, 46%, 95%);
+    --cor-texto-clara:hsl(0, 0%, 81%);
+    --cor-texto-escura:hsl(217, 19%, 35%);
+}
